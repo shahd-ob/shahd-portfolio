@@ -11,25 +11,28 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Poppins&display=swap" rel="stylesheet">
-<!-- bootstrap link  -->
- 
-</head>
 
+</head>
 <!-- header content with banner image  -->
 <header>
- 
-<div class="hero">
+ <div class="hero">
     <nav>
         <div class="navLinks">
             <ul>
-              <li><a href="">Home</a></li>
-               <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Get In Touch</a></li>
-               </ul>
-          </div>
-        </nav>
-     <div class="column1">
+               <li class="main"><a href="#">Home</a></li>
+               <li class="main"><a href="#skills">Skills</a></li>
+               <li class="main"><a href="#projects">Projects</a></li>
+               <li class="main"><a href="#contact">Get In Touch</a></li>
+               <li> 
+        <div class="button-box" id="button-box">
+         <div id="btn"></div> 
+            <button type="button" class="toggle-btn" onclick="leftClick()">عربي</button>
+            <button type="button" class="toggle-btn" onclick="rightClick()">ENG</button>
+         </div></li>
+            </ul>
+        </div>
+    </nav>
+<div class="column1">
 <h1>
  <div class="def">
     Hello  and thank you for visiting my site &#128515;  ! <br>
@@ -39,16 +42,13 @@
  </div>
  <button type="button">
  <a class="button" href="CVAugust2023 .pdf"; target="_blank">Download CV <i class="fas fa-download"></i></a>
-     </button> 
- 
+ </button> 
 </h1>
+</div> 
 </div>
-</div>
- 
-</header>
 
+</header>
 <body> 
- 
     <!-- FED skills bar  -->
 <div class="skillicons" id="skills">
     <div class="header">
@@ -165,6 +165,10 @@
     </div>
 </div>    
 </section>
+<script src="/bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+
+ <script src="index.js"></script>
+
   </body>
 
 <!-- footer  -->
@@ -174,9 +178,8 @@
 <a><i class=""></i> © 2023 | Shahd Bahamdoon </a>
 </div>
  </footer>
-
-</html>
-<script src="/bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
-
-<script defer src="script.js"> </script>
+</div>
+ 
 </html> 
+
+ 
